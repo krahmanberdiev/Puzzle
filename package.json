@@ -1,0 +1,14 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "Test cases for a sliding puzzle",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Kuttubek",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}

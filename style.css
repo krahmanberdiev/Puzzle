@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    background-color: black;
+    width: 340px;
+    height: 340px;
+    border-radius: 15px;
+ }
+ .box {
+    width: 100px;
+    height: 100px;
+    border: 10px outset #ebeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Helvetica;
+    background-color: white;
+    box-sizing: border-box;
+    transition: all .3s ease-in;
+ }
+ .first {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ }
+ .second {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+ }
+ .third {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+ }
+ .fourth {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+ }
+ .fifth {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+ }
+ .sixth {
+    position: absolute;
+    left: 220px;
+    top: 120px;
+ }
+ .seventh {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+ }
+ .eigth {
+    position: absolute;
+    top: 220px;
+    left: 120px;
+ }
+ .text {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: Helvetica
+ }
